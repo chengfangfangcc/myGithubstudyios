@@ -24,12 +24,15 @@ qmyios.app.dSYM.zip
 
 xcuserdata
 
+UserInterfaceState.xcuserstate
+
 ## Other
 *.xccheckout
 *.moved-aside
 *.xcuserstate
 xcdebugger
 *.xcscmblueprint
+
 
 ############################# Objective-C.gitignore
 

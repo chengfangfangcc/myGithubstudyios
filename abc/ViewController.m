@@ -32,6 +32,9 @@
     
     [self.view addSubview:lab];
     
+    //
+    
+    
     
     // Do any additional setup after loading the view, typically from a nib.
 }
