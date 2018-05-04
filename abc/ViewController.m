@@ -22,9 +22,9 @@
     //注册通知 并且接收通知    添加一个观察者，可以为它指定一个方法，名字和对象。接受到通知时，执行方法。
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(getNotification:) name:@"notificationName" object:nil];
     
-    //发送通知   不传通知内容
+    //发送通知   不传值
 //    [[NSNotificationCenter defaultCenter] postNotificationName:@"notificationName" object:nil];
-    //发送通知   传通知内容    参数说明：第一个参数是通知名称   第二个参数是通知对象,可以为nil   第三个参数是通知包含的内容，也可以为nil
+    //发送通知   传值    参数说明：第一个参数是通知名称   第二个参数是通知对象,可以为nil   第三个参数是通知包含的内容，也可以为nil
     [[NSNotificationCenter defaultCenter] postNotificationName:@"notificationName" object:nil userInfo:@{@"data":@"asd"}];
     
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
